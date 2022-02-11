@@ -1,0 +1,90 @@
+* {
+    list-style: none;
+}
+
+.Post {
+    padding: 1em;
+    border-top: solid 1px #54fad079;
+}
+
+.Post:hover {
+    background-color: #22534728;
+}
+
+.Post:nth-last-child(1) {
+    border-bottom: 1px solid #54fad079;
+}
+
+.fotoPerfilPostWrapper {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.fotoPerfilPostWrapper img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.spanNomeEscola:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #54fad0;
+}
+
+.dataPost {
+    font-size: .8rem;
+    color: #ffffffab;
+}
+
+.hrPost {
+    background-color: #fff!important;
+}
+
+.textBody {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+.textBody h3 {
+    margin-left: 1em;
+    margin-bottom: 0;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+.imageBody {
+    width: 100%;
+    height: 18em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBodyWrapper {
+    width: 80%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.imageBody img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.postActions {
+    justify-content: space-around;
+}
+
+.postActions ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}

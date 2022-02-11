@@ -1,0 +1,238 @@
+.containerPopupAdm {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: absolute;
+    justify-content: center;
+    display: none;
+}
+
+.popupApagaPost {
+    width: auto;
+    height: 10em;
+    animation: moveBanner 1s 0.5s forwards;
+    opacity: 0;
+    border: 1px solid #54fad0;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .9);
+    padding: 1.5em;
+    margin-top: 2em;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.popupApagaPost h3 {
+    color: #54fad0;
+}
+
+.divOptions {
+    margin-top: 2em;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.aceitar {
+    color: #54fad0;
+    background-color: #2742465d;
+    border: 1px solid #54fad0;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: .3em 1em .3em 1em;
+    transition: .3s;
+}
+
+.negar {
+    color: #54fad0;
+    background-color: #2742465d;
+    border: 1px solid #54fad0;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: .3em 1em .3em 1em;
+    transition: .3s;
+}
+
+.aceitar:hover, .negar:hover {
+    background-color: #274246;
+}
+
+/* .aceitar {
+    color: #00ff00;
+    background-color: #00ff0070;
+    border: 1px solid #00ff00;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: .3em 1em .3em 1em;
+}
+
+.negar {
+    color: #ff0000;
+    background-color: #ff000070;
+    border: 1px solid #ff0000;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: .3em 1em .3em 1em;
+} */
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.buttonApagarPost i {
+    color: rgb(255, 0, 0);
+    font-size: 1.4rem;
+    -webkit-transition: transform .1s;
+    transition: transform .1s;
+}
+
+.buttonApagarPost i:hover{
+  -webkit-animation: pulse .25s;
+  animation: pulse .25s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+    0%   {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    }
+    50%  {
+    -webkit-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -moz-transform: scale(.8);
+    transform: scale(.8);
+    }
+    100% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    }
+}
+
+.Post {
+    position: relative;
+}
+
+.divApagaPost {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+}
+
+@keyframes moveBanner {
+    0% {
+      transform: translateY(-30rem) rotateY(-30deg);
+    }
+    100% {
+      transform: translateY(0) rotateY(0);
+      opacity: 1;
+    }
+}
+
+.bodyProfile::-webkit-scrollbar, .divFormEscola::-webkit-scrollbar{
+    background-color: #1d1d1d;
+    width: .5rem;
+    border-radius: 10rem;
+}
+  
+.bodyProfile::-webkit-scrollbar-thumb, .divFormEscola::-webkit-scrollbar-thumb{
+    background-color: #5b5b5b;
+    border-radius: 2rem;
+}
+
+.bodyProfile {
+    overflow: auto;
+}
+
+.bodyProfile h1 {
+    color: #54fad0;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.bodyProfile hr {
+    color: #54fad0;
+}
+
+.divTabelaPerfis {
+    width: 100%;
+    padding: 0em 1.5em 0em 1.5em;
+}
+
+.divTabelaPerfis:nth-last-child(1) {
+    margin-bottom: 3em;
+}
+
+.tabela-pers {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tabela-pers thead tr {
+    background-color: rgba(20, 20, 20, 1);
+    color: #54fad0;
+    text-align: left;
+    font-family: var(--font-primary);
+    line-height: 15px;
+    font-size: 1.3rem;
+}
+
+.tabela-pers th,
+.tabela-pers td {
+    padding: 12px 15px;
+}
+
+.tabela-pers td {
+    align-items: center;
+    color: #fff;
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
+    font-size: 1.1rem;
+}
+
+.tabela-pers td i {
+    color: rgba(255, 0, 0, 1);
+    font-size: 1.2rem;
+}
+
+.tabela-pers tbody tr {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background-color: #274246;
+}
+
+.tabela-pers tbody {
+    font-family: var(--font-table);
+}
+
+.tabela-pers tbody tr:nth-of-type(even) {
+    background-color: #2c2c2c;
+}
+
+.tabela-pers tbody tr:last-of-type {
+    border-bottom: #54fad0 2px solid;
+}
+
+.optionsLeito {
+    text-align: center;
+}
+

@@ -1,0 +1,313 @@
+body {
+    background: linear-gradient(to bottom, #153f35, #292929 90%);
+}
+
+fieldset {
+    margin: 0!important;
+}
+
+fieldset:nth-child(1) {
+    margin-top: 0!important;
+}
+
+.Post {
+    border-top: 1px solid #54fad079!important;
+    border-right: 1px solid #54fad079!important;
+    border-left: 1px solid #54fad079!important;
+}
+
+.Post:nth-last-child(1) {
+    border-bottom: 1px solid #54fad079!important;
+}
+
+.containerGeralInfos {
+    width: 100%;
+    height: 100%;
+}
+
+.divLogo {
+    z-index: 99;
+    position: absolute;
+    bottom: 1em;
+    right: 0em;
+    width: 5.2em;
+    height: 3.5em;
+}
+
+.divLogo img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.containerPopupPerfil {
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid #54fad0;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    box-shadow: 0px 0px 2em rgba(84, 250, 208, .7);
+    min-width: 470px;
+}
+
+.fechaPopupPerfil a {
+    margin-top: 0!important;
+    margin-right: 0!important;
+}
+
+.containerParteUm {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.divFoto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.divFoto h3 {
+    margin-top: .5em;
+    margin-bottom: 0!important;
+}
+
+.iconNovaMensagem {
+    position: absolute;
+    right: 3em;
+    top: 1em;
+}
+
+.iconNovaMensagem i {
+    color: #fff;
+    font-size: 1.8rem;
+    transition: .3s;
+}
+
+.iconNovaMensagem i:hover {
+    font-size: 2rem;
+}
+
+.iconDownload {
+    position: absolute;
+    right: 3em;
+    bottom: 1em;
+}
+
+.iconDownload i {
+    color: #fff;
+    font-size: 1.8rem;
+    transition: .3s;
+}
+
+.iconDownload i:hover {
+    font-size: 2rem;
+}
+
+.fotoPopupWrapper {
+    width: 10em;
+    height: 10em;
+    border: 2px solid #54fad0;
+    border-radius: 50%;
+}
+
+.fotoPopupWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.divFoto, .divFotoEscola h3 {
+    margin-top: .5em;
+    color: #fff;
+}
+
+.divForm {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divFormEscola {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    margin-right: 1em;
+}
+
+.divideDivs {
+    border: 1px solid rgba(255, 255, 255, .6);
+    width: 95%;
+    margin: 0;
+    margin-bottom: .5em;
+    align-self: center;
+}
+
+.containerParteDois {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.containerParteTres {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divBiografia {
+    width: 75%;
+    border-top: 1px solid rgba(255, 255, 255, .7);
+    padding-top: .2em;
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
+.divBiografia p {
+    color: #fff;
+    max-width: 100%;
+    word-break: break-all;
+}
+
+.containerEscola {
+    display: flex;
+    height: 93%;
+    width: 100%;
+    border-top: 1px solid #54fad0;
+    padding-top: 1em;
+    margin-top: .5em;
+}
+
+.containerParteUmEscola {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #4b4b4b;
+}
+
+.divFotoEscola {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.divFotoEscola h2 {
+    color: #fff;
+}
+
+.divBiografiaEscola {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerParteDoisEscola {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    padding-left: 1em;
+    padding-right: .5em;
+}
+
+.containerParteDoisEscola::-webkit-scrollbar, .divFormEscola::-webkit-scrollbar{
+    background-color: #1d1d1d;
+    width: .5rem;
+    border-radius: 10rem;
+}
+  
+.containerParteDoisEscola::-webkit-scrollbar-thumb, .divFormEscola::-webkit-scrollbar-thumb{
+    background-color: #5b5b5b;
+    border-radius: 2rem;
+}
+
+.containerTodosPosts {
+    width: 100%;
+    height: 50%;
+}
+
+.containerGeralInfos::-webkit-scrollbar{
+    background-color: #1d1d1d;
+    width: .5rem;
+    border-radius: 10rem;
+}
+
+.containerGeralInfos::-webkit-scrollbar-thumb{
+    background-color: #5b5b5b;
+    border-radius: 2rem;
+}
+
+.containerEscola::-webkit-scrollbar{
+    background-color: #1d1d1d;
+    width: .5rem;
+    border-radius: 10rem;
+}
+
+.containerEscola::-webkit-scrollbar-thumb{
+    background-color: #5b5b5b;
+    border-radius: 2rem;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1200px) {
+    .containerParteUm, .containerParteDois {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .divFoto, .divForm {
+        width: 100%;
+        height: auto;
+    }
+
+    .divForm {
+        margin-top: 2em;
+    }
+
+    .containerGeralInfos {
+        overflow-y: auto;
+    }
+
+    .containerParteTres {
+        margin-top: 2em;
+    }
+
+    /* //////////////////////////////////////// */
+
+    .containerEscola {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .containerParteUmEscola, .containerParteDoisEscola {
+        width: 100%;
+        height: auto;
+    }
+
+    .containerParteDoisEscola {
+        overflow: unset;
+        margin-top: 3em;
+    }
+
+    .divFotoEscola {
+        height: auto;
+    }
+}

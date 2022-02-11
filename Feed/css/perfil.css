@@ -1,0 +1,395 @@
+.containerProfile::-webkit-scrollbar{
+    background-color: #1d1d1d;
+    width: .5rem;
+    border-radius: 10rem;
+}
+  
+.containerProfile::-webkit-scrollbar-thumb{
+    background-color: #5b5b5b;
+    border-radius: 2rem;
+}
+
+.imgPerfilPopup .labelMudaFoto {
+    position: unset;
+}
+
+.popupMudaFoto {
+    width: 45em;
+    height: 20em;
+    border: solid 1px #54fAD0;
+    background-color: rgba(0, 0, 0, .90);
+}
+
+.fechaPopupPerfil {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fechaPopupPerfil a {
+    margin-right: .5em;
+    margin-top: .5em;
+}
+
+.formMudaFoto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formMudaFoto label {
+    margin-top: 1em;
+}
+
+.containerImgPopup {
+    width: 100%;
+    height: 8.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgPopupWrapper {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: 2px solid #54fAD0;
+}
+
+.imgPopupWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.containerProfile {
+    overflow: auto;
+    height: 100vh;
+}
+
+.headerProfile {
+    width: 100%;
+    height: auto;
+    background-color: #22534728;
+    border-bottom: 1px solid #54fAD0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerProfile h1 {
+    margin-top: .5em;
+    color: #fff;
+}
+
+.divTeste {
+    height: 50%;
+}
+
+.divImgPerfil {
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgPerfilWrapper {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: 2px solid #54fAD0;
+    position: relative;
+}
+
+.labelMudaFoto {
+    position: absolute;
+    z-index: -99;
+}
+
+.imgMudaFoto {
+    z-index: 99;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.FotoPerfil {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 99;
+    position: absolute;
+}
+
+.imgPerfilWrapper:hover .FotoPerfil{
+    z-index: 10;
+}
+
+.imgPerfilWrapper:hover .labelMudaFoto{
+    z-index: 99;
+}
+
+.bodyProfile h1 {
+    color: #54fAD0;
+}
+
+.bodyProfile hr {
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.popupBiografia {
+    width: 45em;
+    height: 20em;
+    border: solid 1px #54fAD0;
+    background-color: rgba(0, 0, 0, .90);
+}
+
+.wrapperTextarea {
+    width: 100%;
+    padding: 1.5em;
+}
+
+.wrapperTextarea textarea {
+    width: 100%;
+    height: 10em;
+    background-color: #4e4c4c;
+    border: 1px solid #54fAD0;
+    color: #fff;
+    padding: .5em;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #54fAD0;
+    outline: 0;
+} 
+
+.biografia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2em;
+    color: rgb(223, 223, 223);
+}
+
+.headerBiografia {
+    width: 100%;
+    padding-right: 1em;
+    padding-left: 2em;
+    justify-content: space-between;
+    display: flex;
+}
+
+.biografia p {
+    width: 90%;
+    text-align: justify;
+    max-width: 90%;
+    word-break: break-word;
+}
+
+.formPerfil {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+fieldset {
+    min-width: auto;
+    padding: unset;
+    margin: unset;
+    border: 1px solid #54fAD0;
+    width: 90%;
+}
+
+fieldset:last-child {
+    margin-bottom: 2em;
+}
+
+legend {
+    float: unset;
+    width: auto;
+    color: #54FAD0;
+    padding-right: .5em;
+    padding-left: .5em;
+    margin-left: .5em;
+    font-weight: bold;
+    margin-bottom: 0!important;
+}
+
+.containerEnviaForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconeEdita {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconeEdita i {
+    color: #fff;
+}
+
+.animacao {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    margin-right: 1em;
+}
+
+.animacao:hover {
+    background-color: #225347d0;
+}
+
+a {
+    color: #22534700;
+}
+
+a:hover {
+    color: #22534700;
+}
+
+.iconeCurriculo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconeCurriculo i {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+/* /==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/ */
+
+fieldset form {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-bottom: 1em;
+    width: 100%;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+fieldset:nth-child(1) {
+    margin-top: 1em!important;
+}
+
+fieldset {
+    margin-top: 3em;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #504f4f!important;
+    border: 1px solid #54FAD0!important;
+    color: rgb(228, 225, 225)!important;
+    box-shadow: 3px 3px 5px rgba(84, 250, 208, .7)!important;
+    transition: .3s;
+}
+
+.fieldsetAtivo {
+    box-shadow: 4px 4px 5px rgba(84, 250, 208, .7)!important;
+    transition: .3s;
+}
+
+.form-control:disabled {
+    background-color: #3b3a3a!important;
+    box-shadow: 0 0 0!important;
+}
+
+.form-select {
+    background-color: #adabab!important;
+}
+
+.form-check-label {
+    color: #fff;
+}
+
+#labelEspecial {
+    width: 100%;
+    display: block;
+}
+
+.divBtn {
+    display: flex;
+    justify-content: center;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.btns {
+    border-radius: 1rem;
+    text-transform: uppercase;
+    color: #fff!important;
+    font-size: .6rem;
+    padding: .8rem;
+    cursor: pointer;
+    font-weight: bold;
+    width: 15rem;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+
+.submitBtn {
+    align-self: center;
+    background-color: #3d3b3b;
+    border: 1px solid #54FAD0;
+    transition: background-color .5s;
+    font-family: var(--fonte-primaria);
+    letter-spacing: .1em;
+}
+
+.submitBtn:hover {
+    background-color: #7c8485;
+    border: 1px solid #54FAD0;
+    color: #fff;
+}
+
+.textMuted {
+    --bs-text-opacity: 1;
+    color: #fff!important;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.form-label {
+    color: #54fAD0!important;
+    font-weight: bold;
+}
+
+.inputEnd {
+    cursor: default!important;
+}
+
+.error {
+    color: red;
+    font-size: .8rem;
+}
